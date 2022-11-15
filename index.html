@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+h3{
+    text-align: center;
+    margin-top: 50px;
+}
+  .inp1{
+    width: 300px;
+    margin-bottom: px;
+    border: solid 2px;
+}
+.Sumbit{
+    margin-right: 25px;
+    margin-left: 70px;
+    border: solid 2px;
+    font-size:large;
+}
+.Cancel{
+    margin-right: 170px;
+    border: solid 2px;
+    font-size:large;
+}   
+.item{
+    width: 10px;
+    height: 10px;
+   padding: 30px;
+    margin-right: 500px; 
+    margin-bottom: 40px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    width: 1200px;
+}
+.grid-item1 {
+    background-color: white ;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: right;
+    border-right-color:white !important;    
+}
+.grid-item2 {
+    background-color:white ;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    text-align: right;
+    border-left-color:white !important;
+}
+.card {
+    background-color: lightblue;
+    border: solid black 2px;
+    padding: 5px;
+}
+.container {
+    height: 180px;
+    width: 180px;
+    margin-left: 80px;
+    margin-top : 70px;
+    margin-bottom: 70px;
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/c/c7/Messe_Luzern_Corporate_Event.jpg");
+    border-radius: 60%;
+    border : solid black 2px;
+}
+</style>
+</head>
+<body>
+   <div style="border:solid black 2px; padding: 10px; margin-left: 90px; margin-right: 210px; margin-top: 100px;background-color:lightcoral;">
+   <h1>Event 1</h1>
+   <h3>Number of available seats: 23</h3>
+   <div class="grid-container">
+    <div class="grid-item1">
+    <div class="card">
+    <div class="container">
+    </div>
+  </div>
+    </div>
+    <div class="grid-item2">
+        <form action="#" style="margin-top:70px;">
+            <label  for="name">Name:</label>
+            <input type="text" id="name" name="name" class="inp1"> 
+            <br>
+            <br>
+            <label  for="Email">Email:</label>
+            <input type="text" id="Email" name="Email" class="inp1"> 
+            <br>
+            <br>
+            <label  for="Phone No">Phone No:</label>
+            <input type="number" id="Phone No" name="Phone No" class="inp1"> 
+            <br>
+            <br>
+            <label  for="Number of seats">Number of seats:</label>
+            <input type="number" id="Number of seats" name="Number of seats" class="inp1"> 
+            <br>
+            <br>
+            <label  for="Name of Attendee 2">Name of Attendee 2:</label>
+            <input type="number" id="Name of Attendee 2" name="Name of Attendee 2" class="inp1"> 
+            <br>
+            <br>
+            <button class="Sumbit">Sumbit</button>
+            <button class="Cancel">Cancel</button>
+            </form>
+    </div> 
+  </div>
+</body>
+</html>
